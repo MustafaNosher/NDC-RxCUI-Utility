@@ -11,7 +11,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.persivia</groupId>
+	<groupId>com.ndc</groupId>
 	<artifactId>NDCCodesUtility</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>NDCCodesUtility</name>
@@ -81,7 +81,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.persivia.NDCCodesUtilityApplication</mainClass>
+					<mainClass>com.ndc.NDCCodesUtilityApplication</mainClass>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -114,7 +114,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.persivia.NDCCodesUtilityApplication</mainClass> 
+							<mainClass>com.ndc.NDCCodesUtilityApplication</mainClass> 
 						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>
